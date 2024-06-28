@@ -6,6 +6,6 @@ function calculateSum(){
     const val1 = parseInt(inputnum1.value);
     const val2 = parseInt(inputnum2.value);
     const sum = val1 + val2;
-    answer.innerText =Sum of ${val1} and ${val2} is ${sum}
+    answer.innerText =`Sum of ${val1} and ${val2} is ${sum}`;
 
 }
